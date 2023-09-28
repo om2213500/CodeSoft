@@ -1,0 +1,43 @@
+   body {
+           font-family: Arial, sans-serif;
+            background: #000;
+            color: pink;
+        }
+
+        .calculator {
+            width: 300px;
+            margin: 0 auto;
+            background-color: #f3f3f3;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            color: yellow;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 4px;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            width: 70px;
+            height: 70px;
+            font-size: 20px;
+            margin: 5px;
+            cursor: pointer;
+            color: brown;
+        }
+
+        .btn:hover {
+            background-color: green;
+            color: violet;
+        }
+
+        .row {
+            display: flex;
+        }
+          
+    
